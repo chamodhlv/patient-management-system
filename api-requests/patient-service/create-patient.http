@@ -1,0 +1,11 @@
+### Create a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "chamodh Lakvindu",
+  "email": "chamodh@gmail.com",
+  "address": "75, Parakumba mawatha",
+  "dateOfBirth": "2002-04-07",
+  "registeredDate": "2026-07-04"
+}
